@@ -1,0 +1,208 @@
+body{
+    font: 400 18px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    margin: 0px;
+}
+  .navbar {
+      margin-bottom: 0;
+      background-color: #f4511e;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 5px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+ }
+.navbar a{
+    margin-left: 30px;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+.navbar-toggler{
+    position: relative;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    float: right;
+    color: #777777;
+}
+  
+.navbar-toggler:hover{
+    text-decoration: none;
+    background: #ccc;
+    border: 1px solid transparent;
+}
+.navbar-toggler:focus{
+    background: #ccc;
+    border-bottom-color: white;
+}
+.navbar-collapse:focus{
+    border-color: #e7e7e7;
+}
+.nav li{
+    position: relative;
+    display: block;
+}
+.nav-item .active:active{
+    color: #f4511e !important;
+    background: #FFFFFF; 
+}
+.jumbotron{
+      background-color: #f4511e;
+      color: white;
+      font-family: Montserrat, sans-serif;
+      text-align: center;
+      padding: 90px 20px;
+        
+}
+.jumbotron h1{
+    font-size: 63px;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+.jumbotron p{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Montserrat, sans-serif;
+
+}
+.container-fluid{
+    padding: 60px 50px;
+   /* background: #ABABAB;*/
+}
+.bg-light{
+    background: #f6f6f6;
+}
+h2{
+    color: #303030;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 19px;
+    color: #303030;
+    font-weight: 400;
+    line-height: 1.375em;
+}
+.btn-default{
+    border-color: #ccc;
+    background: #fff;
+    color: #333;
+}
+.btn-default:hover{
+    background: #e6e6e6;
+    color: #333;
+    border-color: #adadad;
+}
+.fa-signal,.fa-globe-asia{
+     color: #f4511e;   
+    font-size: 180px;
+}
+.fa-power-off,.fa-heart,.fa-shopping-bag,.fa-envira,.fa-certificate,.fa-wrench,.fa-angle-up{
+    color: #f4511e;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.img-thumbnail{
+    border: none;
+    border-radius: 0px;
+}
+img{
+    margin-top: 20px;
+}
+.carousel-indicators{
+    margin-bottom: -50px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    border-color: #f4511e;
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #f4511e;
+}
+.fa-angle-left,.fa-angle-right {
+  
+  outline: black;
+  background-size: 100%, 100%;
+    color: #f4511e;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item span{
+    font-style: normal;
+}
+.carousel-item h4{
+    font-size: 22px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0px;
+}
+
+.fa-angle-left,.fa-angle-right:hover{
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.card{
+    border: 1px solid #f4511e;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-header{
+    background: #f4511e;
+    color: white;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    
+    
+}
+.card-footer{
+    padding: 30px;
+        
+}
+.card-footer h3{
+    font-size: 32px;
+}
+.card-footer h4{
+    color: #aaaaaa;
+    font-size: 14px;
+}
+.card:hover{
+    box-shadow: 5px 0px 30px rgba(0,0,0,.2);
+}
+.card-footer .btn{
+    background: #f4511e;
+    color: white;
+    margin: 15px 0px;
+}
+.card-footer .btn:hover{
+    border:1px solid #f4511e;
+    background: white;
+    color: #f4511e;
+}
